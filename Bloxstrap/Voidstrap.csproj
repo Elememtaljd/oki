@@ -6,13 +6,13 @@
 		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
 		<UseWindowsForms>True</UseWindowsForms>
-		<ApplicationIcon>Voidstrap.ico</ApplicationIcon>
+		<ApplicationIcon>Oblivion.ico</ApplicationIcon>
 		<Version>1.0.7.1</Version>
 		<FileVersion>1.0.7.1</FileVersion>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<RootNamespace>Oblivion</RootNamespace>
-		
+		<AssemblyName>Oblivion</AssemblyName>
 
 		<!-- Single File Publishing -->
 		<PublishSingleFile>true</PublishSingleFile>
@@ -53,7 +53,7 @@
 	<ItemGroup>
 		<Resource Include="ThemeImages\GalaxyBB.jpeg" />
 		<Resource Include="ThemeImages\PureFF.jpg" />
-		<Resource Include="Voidstrap.ico" />
+		<Resource Include="Oblivion.ico" />
 		<Resource Include="Resources\Checkmark.ico" />
 		<Resource Include="Resources\CrossMark.ico" />
 		<Resource Include="Resources\Fonts\NotoSansThai-VariableFont_wdth,wght.ttf" />
@@ -188,7 +188,7 @@
 
 
 	<ItemGroup>
-	  <Resource Include="Voidstrap.png">
+	  <Resource Include="Oblivion.png">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </Resource>
