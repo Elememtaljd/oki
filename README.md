@@ -1,12 +1,12 @@
-# 🌌 Voidstrap: A Next-Gen Bloxstrap Fork
+# 🌌 Oblivion: A Next-Gen Bloxstrap Fork
 
-**Voidstrap** is a modern, feature-rich fork of [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap), designed to elevate your **Roblox** experience. With a refined interface, enhanced stability, and powerful features, Voidstrap gives you full control over how you play.
+**Oblivion** is a modern, feature-rich fork of [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap), designed to elevate your **Roblox** experience. With a refined interface, enhanced stability, and powerful features, Oblivion gives you full control over how you play.
 
 <p align="center">
-  <img src="https://github.com/voidstrap/Voidstrap/blob/main/Images/Voidstrap.png" alt="Voidstrap Logo">
+  <img src="https://github.com/voidstrap/Voidstrap/blob/main/Images/Voidstrap.png" alt="Oblivion Logo">
 </p>
 
-<p align="center"><strong>⭐ If you like Voidstrap, please star the repo and help it grow!</strong></p>
+<p align="center"><strong>⭐ If you like Oblivion, please star the repo and help it grow!</strong></p>
 
 ---
 
@@ -38,19 +38,12 @@
          alt="Stars Badge"
          style="border-radius: 12px; box-shadow: 0 0 12px #FFD700;">
   </a>
-<a href="https://discord.gg/WNbdjP36" target="_blank" rel="noopener noreferrer" aria-label="Join our Discord server">
-  <img
-    src="https://img.shields.io/discord/1327967202015580223?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=4d3dff"
-    alt="Discord Badge"
-    style="border-radius: 12px; box-shadow: 0 0 12px #4d3dff;"
-  >
-</a>
 
 </p>
 
 ---
 
-## ✨ Why Use Voidstrap?
+## ✨ Why Use Oblivion?
 
 - ⚡ **Faster & Lighter** – A slimmed-down, tuned-up launcher that's blazing fast.  
 - 🌀 **Multi-Instance Support** – Launch and run multiple Roblox clients simultaneously.  
@@ -66,7 +59,7 @@
 
 1. **Download:** Grab the latest release from the [Releases page](https://github.com/voidstrap/Voidstrap/releases).  
 2. **Install:** Run the installer and follow the on-screen setup.  
-3. **Launch:** Open Voidstrap and experience Roblox like never before!
+3. **Launch:** Open Oblivion and experience Roblox like never before!
 
 ---
 
@@ -75,13 +68,11 @@
 ### 🔄 Integrations & Utilities  
 - **Player & Message Logs** – Full logging of actions for moderation or debugging.  
 - **Hardware Acceleration Toggle** – Disable or enable hardware acceleration and UI animations.  
-- **Launch Roblox Studio** – Start Roblox Studio directly via Voidstrap.  
+- **Launch Roblox Studio** – Start Roblox Studio directly via Oblivion.  
 - **Hub Page** – Access community themes, mods, and FFlag presets.  
-- **Discord RPC Integration** – Displays that you’re using Voidstrap on Discord with join support.  
 - **Cross-Game Teleport** – Fixes Error 773 when switching games.  
-- **App CPU Limiter** – Limit CPU cores used by Roblox or Voidstrap.  
-- **Memory / GPU Optimizer (BETA)** – “Optimize Roblox” & “Trim Roblox Memory” improve performance.  
-- **Custom RPC Editor** – Design your own Discord Rich Presence for Voidstrap.
+- **App CPU Limiter** – Limit CPU cores used by Roblox or Oblivion.  
+- **Memory / GPU Optimizer (BETA)** – "Optimize Roblox" & "Trim Roblox Memory" improve performance.  
 - **Music Player with Browser** – Built-in browser and music player. 
 - **Plugins Page (EARLY ACCESS)** – Manage experimental plugins.
 
@@ -96,7 +87,7 @@
 ### 📡 Channel & Update Management  
 - **Prevent Forced Updates** – Stay on your own channel/version.  
 - **Channel Switcher** – Swap Roblox update channels easily.  
-- **True Auto-Updater** – Automatically fetches new Voidstrap versions.  
+- **True Auto-Updater** – Automatically fetches new Oblivion versions.  
 
 ### 🚀 Bootstrap & Launcher Enhancements  
 - **Multiple Instance Booting** – Run several clients at once.  
@@ -127,9 +118,9 @@
 
 ## 🤝 Community & Support
 
-- 💬 **Discord:** [Join the Voidstrap Server](https://discord.gg/H87yAbEDJa)  
+- 💬 **Discord:** [Join the Oblivion Server](https://discord.gg/H87yAbEDJa)  
 - 🐞 **Issues:** [Report bugs or suggest features](https://github.com/voidstrap/Voidstrap/issues)  
-- ⭐ **Support:** Star the repo if you love Voidstrap!  
+- ⭐ **Support:** Star the repo if you love Oblivion!  
 
 ---
 
@@ -148,4 +139,4 @@
 ### 💡 Inspirations  
 - [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap)  
 
-*Thank you for choosing Voidstrap. Happy gaming! 🎮*
+*Thank you for choosing Oblivion. Happy gaming! 🎮*

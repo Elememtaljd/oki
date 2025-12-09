@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Input;
 using Microsoft.Win32;
 using System.Collections.ObjectModel;
 using System.Windows;
@@ -165,43 +165,10 @@ namespace Voidstrap.UI.ViewModels.Settings
             }
         }
 
-        public bool DiscordActivityEnabled
-        {
-            get => App.Settings.Prop.UseDiscordRichPresence;
-            set
-            {
-                App.Settings.Prop.UseDiscordRichPresence = value;
-
-                if (!value)
-                {
-                    DiscordActivityJoinEnabled = value;
-                    DiscordAccountOnProfile = value;
-                    GameIconChecked = value;
-                    ServerLocationGame = value;
-                    OnPropertyChanged(nameof(DiscordActivityJoinEnabled));
-                    OnPropertyChanged(nameof(DiscordAccountOnProfile));
-                    OnPropertyChanged(nameof(GameIconChecked));
-                    OnPropertyChanged(nameof(ServerLocationGame));
-                }
-            }
-        }
-
         public bool UncapFPS
         {
             get => RobloxSettings.IsUncapped();
             set => RobloxSettings.SetUncapped(value);
-        }
-
-        public bool DiscordActivityJoinEnabled
-        {
-            get => !App.Settings.Prop.HideRPCButtons;
-            set => App.Settings.Prop.HideRPCButtons = !value;
-        }
-
-        public bool DiscordAccountOnProfile
-        {
-            get => App.Settings.Prop.ShowAccountOnRichPresence;
-            set => App.Settings.Prop.ShowAccountOnRichPresence = value;
         }
 
         public bool GameIconChecked

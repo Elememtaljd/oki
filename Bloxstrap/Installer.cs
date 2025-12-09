@@ -1,8 +1,12 @@
-﻿using System.Windows;
-using Voidstrap;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Windows;
 using Microsoft.Win32;
 
-namespace Voidstrap
+namespace Oblivion
 {
     internal class Installer
     {

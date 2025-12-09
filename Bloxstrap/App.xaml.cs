@@ -23,7 +23,7 @@ namespace Voidstrap
 #if QA_BUILD
         public const string ProjectName = "Voidstrap-QA";
 #else
-        public const string ProjectName = "Voidstrap";
+        public const string ProjectName = "Oblivion";
 #endif
         public const string ProjectOwner = "Voidstrap";
         public const string ProjectRepository = "/voidstrap/Voidstrap/";
