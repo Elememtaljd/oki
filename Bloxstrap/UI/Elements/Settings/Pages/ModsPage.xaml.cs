@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -154,12 +154,12 @@ namespace Voidstrap.UI.Elements.Settings.Pages
                 DownloadStatusText.Text = "Cleaning up unnecessary files...";
                 var preservePaths = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
                 {
-                    Path.Combine(VoidstrapTemp, @"ExtraContent\LuaPackages\Packages\_Index\FoundationImages\FoundationImages\SpriteSheets")
+                    Path.Combine(OblivionTemp, @"ExtraContent\LuaPackages\Packages\_Index\FoundationImages\FoundationImages\SpriteSheets")
                 };
 
                 foreach (var entry in mappings.Values)
                 {
-                    string fullPath = Path.Combine(VoidstrapTemp, Path.Combine(entry));
+                    string fullPath = Path.Combine(OblivionTemp, Path.Combine(entry));
                     preservePaths.Add(fullPath);
                 }
 
@@ -168,14 +168,14 @@ namespace Voidstrap.UI.Elements.Settings.Pages
 
                 if (colorCursors)
                 {
-                    preservePaths.Add(Path.Combine(VoidstrapTemp, @"content\textures\Cursors\KeyboardMouse\IBeamCursor.png"));
-                    preservePaths.Add(Path.Combine(VoidstrapTemp, @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png"));
-                    preservePaths.Add(Path.Combine(VoidstrapTemp, @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png"));
+                    preservePaths.Add(Path.Combine(OblivionTemp, @"content\textures\Cursors\KeyboardMouse\IBeamCursor.png"));
+                    preservePaths.Add(Path.Combine(OblivionTemp, @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png"));
+                    preservePaths.Add(Path.Combine(OblivionTemp, @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png"));
                 }
 
                 if (colorShiftlock)
                 {
-                    preservePaths.Add(Path.Combine(VoidstrapTemp, @"content\textures\MouseLockedCursor.png"));
+                    preservePaths.Add(Path.Combine(OblivionTemp, @"content\textures\MouseLockedCursor.png"));
                 }
 
                 if (colorEmoteWheel)

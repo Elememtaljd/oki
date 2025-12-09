@@ -9,11 +9,11 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shell;
 using System.Windows.Threading;
-using Voidstrap.Integrations;
-using Voidstrap.UI.ViewModels.ContextMenu;
+using Oblivion.Integrations;
+using Oblivion.UI.ViewModels.ContextMenu;
 using Wpf.Ui.Hardware;
 
-namespace Voidstrap
+namespace Oblivion
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -21,15 +21,15 @@ namespace Voidstrap
     public partial class App : Application
     {
 #if QA_BUILD
-        public const string ProjectName = "Voidstrap-QA";
+        public const string ProjectName = "Oblivion-QA";
 #else
         public const string ProjectName = "Oblivion";
 #endif
-        public const string ProjectOwner = "Voidstrap";
-        public const string ProjectRepository = "/voidstrap/Voidstrap/";
-        public const string ProjectDownloadLink = "https://github.com/voidstrap/Voidstrap/releases";
+        public const string ProjectOwner = "Oblivion";
+        public const string ProjectRepository = "/oblivion/Oblivion/";
+        public const string ProjectDownloadLink = "https://github.com/oblivion/Oblivion/releases";
         public const string ProjectHelpLink = "https://github.com/BloxstrapLabs/Bloxstrap/wiki";
-        public const string ProjectSupportLink = "https://github.com/voidstrap/Voidstrap/issues/new";
+        public const string ProjectSupportLink = "https://github.com/oblivion/Oblivion/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";
@@ -186,7 +186,7 @@ namespace Voidstrap
                 Logger.WriteLine(LOG_IDENT, $"Detected unsupported Windows version ({Environment.OSVersion.Version}).");
 
                 if (!LaunchSettings.QuietFlag.Active)
-                    Frontend.ShowMessageBox("Your Windows Version is not supported with Voidstrap!", MessageBoxImage.Error);
+                    Frontend.ShowMessageBox("Your Windows Version is not supported with Oblivion!", MessageBoxImage.Error);
 
                 Terminate(ErrorCode.ERROR_INVALID_FUNCTION);
             }

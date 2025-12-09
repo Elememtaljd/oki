@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
@@ -11,7 +11,7 @@
 		<FileVersion>1.0.7.1</FileVersion>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<RootNamespace>Voidstrap</RootNamespace>
+		<RootNamespace>Oblivion</RootNamespace>
 		
 
 		<!-- Single File Publishing -->

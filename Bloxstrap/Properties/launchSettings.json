@@ -1,41 +1,41 @@
 {
     "profiles": {
-        "Voidstrap (Launch)": {
+        "Oblivion (Launch)": {
             "commandName": "Project"
         },
-        "Voidstrap (Quiet Launch)": {
+        "Oblivion (Quiet Launch)": {
             "commandName": "Project",
             "commandLineArgs": "-quiet"
         },
-        "Voidstrap (Install)": {
+        "Oblivion (Install)": {
             "commandName": "Project",
             "commandLineArgs": "-install"
         },
-        "Voidstrap (Uninstall)": {
+        "Oblivion (Uninstall)": {
             "commandName": "Project",
             "commandLineArgs": "-uninstall"
         },
-        "Voidstrap (Quiet Uninstall)": {
+        "Oblivion (Quiet Uninstall)": {
             "commandName": "Project",
             "commandLineArgs": "-uninstall -quiet"
         },
-        "Voidstrap (Menu)": {
+        "Oblivion (Menu)": {
             "commandName": "Project",
             "commandLineArgs": "-menu"
         },
-        "Voidstrap (Deeplink)": {
+        "Oblivion (Deeplink)": {
             "commandName": "Project",
             "commandLineArgs": "-player \"roblox://experiences/start?placeId=286090429\""
         },
-        "Voidstrap (Studio Launch)": {
+        "Oblivion (Studio Launch)": {
             "commandName": "Project",
             "commandLineArgs": "-studio"
         },
-        "Voidstrap (Watcher)": {
+        "Oblivion (Watcher)": {
             "commandName": "Project",
             "commandLineArgs": "-watcher"
         },
-        "Voidstrap (Bloxshade)": {
+        "Oblivion (Bloxshade)": {
             "commandName": "Project",
             "commandLineArgs": "-bloxshade"
         }

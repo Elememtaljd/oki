@@ -1,4 +1,4 @@
-﻿namespace Voidstrap.Models.VoidstrapRPC;
+namespace Oblivion.Models.OblivionRPC;
 
 public class Message
 {

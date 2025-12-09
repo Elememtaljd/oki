@@ -1,13 +1,13 @@
-﻿using System.Windows.Input;
+using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
-using Voidstrap.UI.ViewModels;
-using Voidstrap;
+using Oblivion.UI.ViewModels;
+using Oblivion;
 using ICSharpCode.SharpZipLib.Zip;
 using Microsoft.Win32;
 
-namespace Voidstrap.UI.ViewModels.Settings
+namespace Oblivion.UI.ViewModels.Settings
 {
-    public class VoidstrapViewModel : NotifyPropertyChangedViewModel
+    public class OblivionViewModel : NotifyPropertyChangedViewModel
     {
         public bool ShouldExportConfig { get; set; } = true;
 
@@ -27,7 +27,7 @@ namespace Voidstrap.UI.ViewModels.Settings
 
             var dialog = new SaveFileDialog
             {
-                FileName = $"Voidstrap-export-{timestamp}.zip",
+                FileName = $"Oblivion-export-{timestamp}.zip",
                 Filter = $"{Strings.FileTypes_ZipArchive}|*.zip"
             };
 

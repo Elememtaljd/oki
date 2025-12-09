@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.IO.Compression;
 using System.Net.Http;
@@ -101,7 +101,7 @@ public static class GithubUpdater
             File.Copy(file, dest, true);
         }
 
-        string mainExe = Path.Combine(currentDir, "Voidstrap.exe");
+        string mainExe = Path.Combine(currentDir, "Oblivion.exe");
         RestartAfterUpdate(mainExe);
         return true;
     }
